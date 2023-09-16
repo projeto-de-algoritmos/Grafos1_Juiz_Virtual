@@ -1,30 +1,22 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
 
 Temas:
  - Grafos1
  - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
 
-# NomedoProjeto
 
+# Juiz Virtual
 **Número da Lista**: X<br>
 **Conteúdo da Disciplina**: XXXXXXXXXX<br>
 
 ## Alunos
 |Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 21/1031628 |  [Beatriz Vieira Nascimento](https://github.com/Beatrizvn)     |
+| 21/1043718 | [Paulo Victor Fonseca Sousa](https://github.com/PauloVictorFS)  |
+
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Neste repositório estão soluções para exercícios de grafos de juízes online. 
+
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
