@@ -10,6 +10,7 @@ Temas:
 
 ## Alunos
 |Matrícula | Aluno |
+| -- | -- |
 | 21/1031628 |  [Beatriz Vieira Nascimento](https://github.com/Beatrizvn)     |
 | 21/1043718 | [Paulo Victor Fonseca Sousa](https://github.com/PauloVictorFS)  |
 
