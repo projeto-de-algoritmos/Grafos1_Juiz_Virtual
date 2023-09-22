@@ -6,7 +6,7 @@ public:
 
     // -1 = não visitado, 0 = blue, 1 = red)
     bool isBipartite(const vector<int> graph[], int n) {
-        vector<int> colors(n, -1);
+        vector<int> colors(n+1, -1);
 
         for (int i = 1; i <= n; ++i) {
             if (colors[i] == -1) { 
@@ -42,6 +42,7 @@ public:
             a = dislikes[i][0];
             b = dislikes[i][1];
             graph1[a].push_back(b);
+            graph1[b].push_back(a);
         }
 
         return isBipartite(graph1, n);
