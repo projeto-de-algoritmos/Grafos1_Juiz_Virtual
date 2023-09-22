@@ -5,10 +5,10 @@ class Solution {
 public:
 
     // -1 = não visitado, 0 = blue, 1 = red)
-    bool isBipartite(const vector<vector<int>>& graph, int n) {
+    bool isBipartite(const vector<int> graph[], int n) {
         vector<int> colors(n, -1);
 
-        for (int i = 1; i < n; ++i) {
+        for (int i = 1; i <= n; ++i) {
             if (colors[i] == -1) { 
                 queue<int> q;
                 q.push(i); 
@@ -18,7 +18,7 @@ public:
                     int u = q.front();
                     q.pop();
 
-                    for (int v : graph[u]) {
+                    for (auto v : graph[u]) {
                         if (colors[v] == -1) { 
                             colors[v] = 1 - colors[u]; 
                             q.push(v);
@@ -35,14 +35,10 @@ public:
 }
 
     bool possibleBipartition(int n, vector<vector<int>>& dislikes) {
-
-        if(dislikes.empty()) return true;
-
         int a,b;
-        vector<vector<int>> graph1(n+1);
-        int haters = dislikes.size();
+        vector<int> graph1[n+1];
 
-        for (int i = 0; i < haters; ++i) {
+        for (int i = 0; i < dislikes.size(); ++i) {
             a = dislikes[i][0];
             b = dislikes[i][1];
             graph1[a].push_back(b);
@@ -52,7 +48,7 @@ public:
     }
 };
 
-// Exemplo de uso (a main não vai no leetcode)
+// Main para uso (a main não vai no leetcode)
 int main() {
     Solution solution;
     int n = 4;
