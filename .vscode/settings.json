@@ -4,6 +4,7 @@
         "string": "cpp",
         "vector": "cpp",
         "iostream": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "ostream": "cpp"
     }
 }
