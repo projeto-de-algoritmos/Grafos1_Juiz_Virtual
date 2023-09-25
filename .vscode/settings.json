@@ -5,6 +5,10 @@
         "vector": "cpp",
         "iostream": "cpp",
         "random": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "span": "cpp",
+        "type_traits": "cpp"
     }
 }
