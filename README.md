@@ -1,11 +1,11 @@
 
-Temas:
- - Grafos1
+
 
 
 # Juiz Virtual
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Tema**:
+ - Grafos1
+
 
 ## Alunos
 |Matrícula | Aluno |
@@ -15,22 +15,59 @@ Temas:
 
 
 ## Sobre 
-Neste repositório estão soluções para exercícios de grafos de juízes online. 
+Este repositório apresenta a solução de exercícios de juíz online do site [LeetCode](https://leetcode.com/) relacionados ao assunto de grafos. Dessa forma, foram realizados 4 exercicios, sendo 2 médios e 2 difíceis.
 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+## [Possible Bipartition](../Grafos1_Juiz_Virtual/Possible_Bipartition/pb.cpp) (Médio)
+
+### [Link da questão no leetcode](https://leetcode.com/problems/possible-bipartition/)
+
+Essa questão Envolve o conceito de grafos bipartidos, E o objetivo é verificar se um grafo pode ou não ser bipartido
+<center>
+<img src="../Grafos1_Juiz_Virtual/Img/pbFuncionando.png"></img>
+<p>Figura 1 - PB Funcionando(Fonte: autores)</p>
+</center>
+
+
+## [All Ancestors Of a Node In a DAG](../Grafos1_Juiz_Virtual/All_Ancestors/Ancestors_com_main.cpp) (Médio)
+
+### [Link da questão no leetcode](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/description/)
+
+Essa questão Envolve o conceito de Ordem topológica e do grau de um grafo, e o objetivo dele é retornar os ancestrais de um nó de um DAG
+<center>
+<img src="../Grafos1_Juiz_Virtual/Img/Proof Ancestors.PNG"></img>
+<p>Figura 2 - Ancestors Funcionando(Fonte: autores)</p>
+</center>
+
+## [Maximum Candies](../Grafos1_Juiz_Virtual/Maximum_Candies/Candies.cpp) (Difícil)
+### [Link da questão no leetcode](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/)
+<center>
+<img src="../Grafos1_Juiz_Virtual/Img/candiesFuncionando.png"></img>
+<p>Figura 3 - Candies Funcionando(Fonte: autores)</p>
+</center>
+
+## [Bus Routes](../Grafos1_Juiz_Virtual/Bus_Routes/Bus_routes_com_main.cpp) (Difícil)
+### [Link da questão no leetcode](https://leetcode.com/problems/bus-routes/description/)
+
+Essa questão Envolve o conceito de Busca em BFS e de intersecção em um grafo, e o objetivo é encontrar a menor quantidade de ônibus necessários para ir de uma parada de origem à uma parada de destino
+<center>
+<img src="../Grafos1_Juiz_Virtual/Img/Proof Bus.PNG"></img>
+<p>Figura 4 - Bus  Funcionando(Fonte: autores)</p>
+</center>
+
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C++<br>
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para rodar localmente os códigos das questões, é necessário um compilador C++ instalado no sistema
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+## Observação
+As questões foram submetidas ao leetcode, que possui uma estrutura de submissão com função própria de parametros preenchidos pelo próprio juiz, dessa forma ele não possui main. o código disponibilizado através do link  de cada questão é de um código modificado com main, para uma melhor representação visual. foi disponibilizado dentro do repositório o código submetido ao leetcode.
+
+## Apresentação 
+Cada questão foi comentada e explicada no vídeo disponibilizado [aqui]()
 
 
 

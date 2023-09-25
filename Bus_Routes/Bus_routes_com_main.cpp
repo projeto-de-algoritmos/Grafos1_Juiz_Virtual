@@ -86,7 +86,7 @@ int main() {
     int resultado = sol.numBusesToDestination(routes, source, target);
 
     if (resultado == -1) {
-        cout << "Não é possível chegar ao destino a partir da origem." << endl;
+        cout << "Não e possível chegar ao destino a partir da origem." << endl;
     } else {
         cout << "Menor quantidade de onibus necessaria: " << resultado << endl;
     }
