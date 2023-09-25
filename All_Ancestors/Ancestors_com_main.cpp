@@ -8,7 +8,7 @@ using namespace std;
 
 class Solution {
 public:
-    vector<vector<int>>getAncestors(int n, vector<vector<int>>&edges) {
+    vector<vector<int>> getAncestors(int n, vector<vector<int>>& edges) {
         // Armazena um vetor de lista de adjacência, onde cada nó possui uma lista de nós para os quais aponta.
         vector<int> lista_adjacencia[n];
 
@@ -16,7 +16,7 @@ public:
         vector<int> grau_entrada(n);
 
         // Cria a lista de adjacência e atualiza os graus de entrada.
-        for (int i = 0; i <edges.size(); ++i) {
+        for (int i = 0; i < edges.size(); ++i) {
             lista_adjacencia[edges[i][0]].push_back(edges[i][1]);
             grau_entrada[edges[i][1]]++;
         }
@@ -61,3 +61,23 @@ public:
         return resposta;
     }
 };
+
+int main() {
+    int n = 8;
+    vector<vector<int>> edgeList = {{0,3},{0,4},{1,3},{2,4},{2,7},{3,5},{3,6},{3,7},{4,6}};
+
+    // Calcula a resposta usando a classe Solution
+    Solution sol;
+    vector<vector<int>> resultado = sol.getAncestors(n, edgeList);
+
+    // Exibe a resposta
+    for (int i = 0; i < resultado.size(); ++i) {
+        cout << "Ancestrais do no " << i << ": [";
+        for (int j = 0; j < resultado[i].size(); ++j) {
+            cout << resultado[i][j] << " ";
+        }
+        cout <<"]" << endl;
+    }
+
+    return 0;
+}
