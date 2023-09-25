@@ -26,7 +26,7 @@ Este repositório apresenta a solução de exercícios de juíz online do site [
 
 Essa questão Envolve o conceito de grafos bipartidos, E o objetivo é verificar se um grafo pode ou não ser bipartido
 <center>
-<img src="../Grafos1_Juiz_Virtual/Img/pbFuncionando.png"></img>
+<img src="/Img/pbFuncionando.png"></img>
 <p>Figura 1 - PB Funcionando(Fonte: autores)</p>
 </center>
 
@@ -37,14 +37,14 @@ Essa questão Envolve o conceito de grafos bipartidos, E o objetivo é verificar
 
 Essa questão Envolve o conceito de Ordem topológica e do grau de um grafo, e o objetivo dele é retornar os ancestrais de um nó de um DAG
 <center>
-<img src="../Grafos1_Juiz_Virtual/Img/Proof Ancestors.PNG"></img>
+<img src="/Img/Proof Ancestors.PNG"></img>
 <p>Figura 2 - Ancestors Funcionando(Fonte: autores)</p>
 </center>
 
 ## [Maximum Candies](../Grafos1_Juiz_Virtual/Maximum_Candies/Candies.cpp) (Difícil)
 ### [Link da questão no leetcode](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/)
 <center>
-<img src="../Grafos1_Juiz_Virtual/Img/candiesFuncionando.png"></img>
+<img src="/Img/candiesFuncionando.png"></img>
 <p>Figura 3 - Candies Funcionando(Fonte: autores)</p>
 </center>
 
@@ -53,7 +53,7 @@ Essa questão Envolve o conceito de Ordem topológica e do grau de um grafo, e o
 
 Essa questão Envolve o conceito de Busca em BFS e de intersecção em um grafo, e o objetivo é encontrar a menor quantidade de ônibus necessários para ir de uma parada de origem à uma parada de destino
 <center>
-<img src="../Grafos1_Juiz_Virtual/Img/Proof Bus.PNG"></img>
+<img src="/Img/Proof Bus.PNG"></img>
 <p>Figura 4 - Bus  Funcionando(Fonte: autores)</p>
 </center>
 
