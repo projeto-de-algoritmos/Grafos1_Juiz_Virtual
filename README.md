@@ -43,6 +43,8 @@ Essa questão Envolve o conceito de Ordem topológica e do grau de um grafo, e o
 
 ## [Maximum Candies](../Grafos1_Juiz_Virtual/Maximum_Candies/Candies.cpp) (Difícil)
 ### [Link da questão no leetcode](https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes/)
+
+Esta questão envolve BFS. O objetivo é saber a quantidade de doces que obteremos partindo de pontos específicos, sendo que alguns desses pontos podem estar trancados e  depois talvez a gente encontre a chave que desbloqueie esse ponto.
 <center>
 <img src="/Img/candiesFuncionando.png"></img>
 <p>Figura 3 - Candies Funcionando(Fonte: autores)</p>
