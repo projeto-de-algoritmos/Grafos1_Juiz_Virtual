@@ -70,7 +70,6 @@ As questões foram submetidas ao leetcode, que possui uma estrutura de submissã
 
 ## Apresentação 
 Cada questão foi comentada e explicada no vídeo abaixo 
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R07vi7tif1k?si=JRPPXZHMWZyV9Ord" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
