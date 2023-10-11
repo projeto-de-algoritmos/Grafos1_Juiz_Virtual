@@ -70,14 +70,10 @@ As questões foram submetidas ao leetcode, que possui uma estrutura de submissã
 
 ## Apresentação
  
- Assista ao vídeo abaixo
+ Assista ao vídeo abaixo no youtube
  https://www.youtube.com/watch?v=R07vi7tif1k
 
-<video width="560" height="315" controls autoplay>
-  <source src="https://github.com/projeto-de-algoritmos/Grafos1_Juiz_Virtual/blob/master/assets/Grafos%201%20-PA%20%20211043718%20%20e%20211031628.mp4" type="video/mp4">
-  Seu navegador não suporta a tag de vídeo.
-</video>
-
+Para acessar o vídeo no repositório   [clique aqui](./assets/Grafos%201%20-PA%20%20211043718%20%20e%20211031628.mp4)
 
 
 
