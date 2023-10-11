@@ -68,9 +68,7 @@ Para rodar localmente os códigos das questões, é necessário um compilador C+
 ## Observação
 As questões foram submetidas ao leetcode, que possui uma estrutura de submissão com função própria de parametros preenchidos pelo próprio juiz, dessa forma ele não possui main. o código disponibilizado através do link  de cada questão é de um código modificado com main, para uma melhor representação visual. foi disponibilizado dentro do repositório o código submetido ao leetcode.
 
-## Apresentação 
-Cada questão foi comentada e explicada no vídeo abaixo 
-[https://www.youtube.com/watch?v=R07vi7tif1k&feature=youtu.be]
+## [Apresentação](https://www.youtube.com/watch?v=R07vi7tif1k&feature=youtu.be) 
 
 https://github.com/projeto-de-algoritmos/Grafos1_Juiz_Virtual/blob/master/assets/Grafos%201%20-PA%20%20211043718%20%20e%20211031628.mp4
 
